@@ -18,7 +18,3 @@ print(type(-1.2))
 print(10 == 10) #true
 print(10 == 1) #false
 print(type(10 == 10)) 
-
-#Para converter o tipo de um dado usamos -> novoTipo(dado)
-print(type('1'))      #Tipo original -> str
-print(type(int('1'))) #Novo tipo -> int
