@@ -5,5 +5,4 @@ altura = 1.70
 
 imc = peso / (altura ** 2)
 
-print(nome, 'tem', altura, 'de altura,', peso, 'de peso')
-print('Seu IMC é', imc)
+print(f'{nome}, tem {altura:.2f} de altura, {peso:.1f} de peso\nSeu IMC é {imc:.1f}')
