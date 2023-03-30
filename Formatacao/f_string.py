@@ -7,3 +7,6 @@ print(f'{nome} tem {idade} anos e mede {altura:.2f} ele tem {dinheiro:,.2f} reai
 
 #Com :.valorf é possivel definir quantas casas descimais vão aparecer 
 #Ao acrecentar a , caso o numero for grande ele séra separado por virgulas
+
+#Usando o sinal de = o nome da variavel é mostrado
+print(f'{nome=}, {idade=}')
