@@ -19,7 +19,12 @@ print('Usando aspas "Duplas" ')
 #Concatenação -> junção de dois argumentos
 print('Hello'+'world')
 #Obs: str só pode ser concatenado com outra str
-#print('1'+ 1) Não da certo, tem que coverter umas dos tipos
+#print('1'+ 1) Não da certo, tem que coverter uma dos tipos
 #Obs: int pode ser concatenado com float
 #     quando se concatena tipos numericos se realiza uma soma e o resultado é do tipo float
 print(type(1+1.0))
+
+#Repetição -> utilizando o operador * é possivel repetir uma str
+varios_oi = 'oi ' * 5
+print(varios_oi)
+#Obs: quando se faz isso com float ou int é realizado apenas uma multiplicação simples 
