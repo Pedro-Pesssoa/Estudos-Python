@@ -1,7 +1,7 @@
 #Função print() -> imprime algo na tela 
 print('Hello world')
 #Obs: se utiliza a virgula para separa os argumenstos passados
-print
+print('Hello', 'world')
 
 #sep -> define como as coisas vão ser separadas dentro do print (por padrão separa com o espaço ' ')
 print(1, 2, 3, sep='-')   
